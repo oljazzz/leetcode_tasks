@@ -18,4 +18,10 @@ public class RichestCustomerWealth {
         return Collections.max(wealth);
 
     }
+
+
+
+
+
+
 }
