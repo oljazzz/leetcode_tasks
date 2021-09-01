@@ -1,11 +1,14 @@
 package easy;
 
 import java.util.Locale;
+import java.util.Stack;
 
 public class IsPalindrome {
 
     public static boolean isPalindrome(String s) {
         String result = s.replaceAll("\\W", "").toLowerCase();
+        Stack<String> st = new Stack<>();
+
         int n = result.length();
         int low = 0;
         int high = n - 1;
